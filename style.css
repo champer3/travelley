@@ -41,6 +41,10 @@ h4, h5{
     font-size: 2.8rem;
 }
 
+p{
+    font-size: 2rem;
+}
+
 button{
     padding: 2rem 6rem;
     background: #4c6e97;
@@ -162,6 +166,127 @@ nav ul li{
     }
 }
 
+/* Benefits Section */
+
+.benefits-head{
+    background: #343c44;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.benefits-head h3{
+    padding: 1rem;
+}
+
+.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-icon{
+    background: #343c44;
+}
+
+.card{
+    text-align: center;
+    flex: 1 1 25rem;
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba(0,0,0, 0.1), 0px 20px 20px rgba(0,0,0, 0.1);
+}
+
+.cards img{
+    max-width: 15%;
+    margin: 2rem;
+}
+
+.card h4, .card p{
+    padding: 2rem;
+}
+
+/* Contact Section */
+
+#contact{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0, 0.5), transparent), url(./img/contact-mountain.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper{
+    background: rgba(0,0,0, 0.8);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+}
+
+.form-head{
+    text-align: center;
+    padding: 4rem;
+    align-items: center;
+}
+
+.name-form, .email-form{
+    padding: 3rem;
+    text-align: center;
+}
+
+.form-wrapper label{
+    padding: 0rem 3rem;
+}
+.form-wrapper input{
+    padding: 1rem 3rem;
+}
+
+.form-wrapper button{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 8rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer{
+    color: white;
+    background: rgba(19, 28, 39, 1);
+}
+
+.footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+
+.footer-wrapper h5{
+    flex: 1 1 40rem;
+}
+
+.footer-wrapper ul{
+    list-style: none;
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
 @media screen and (max-width: 933px){
     html{
         font-size: 45%;
@@ -189,6 +314,18 @@ nav ul li{
     .locations-head h3{
         background: #131c27;
         color: white;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer h5{
+        padding-bottom: 3rem;
     }
 }
 
