@@ -62,8 +62,11 @@ button:hover{
 /* nav section with hero  */
 
 .main-head{
-    background: #131c27;
+    background: hsl(213, 34%, 11%);
     color: white;
+    position: sticky;
+    z-index: 10;
+    top: 0px;
 }
 
 nav{
@@ -289,7 +292,7 @@ footer{
 
 @media screen and (max-width: 933px){
     html{
-        font-size: 45%;
+        font-size: 35%;
     }
     nav{
         text-align: center;
